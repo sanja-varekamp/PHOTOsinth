@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTOsinth</title>
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+    
+</head>
+
+<body>
+    <div class="heading">
+        <div class="logo">
+            <img class="logo" src="img/logo_transparent.png" alt="logo of PHOTOsinth">
+        </div>
+        <h1>The plant social media</h1>
+        <h2>Share images of your plants, show off your gardening skills, <br> get inspired! Sign up today!</h2>
+        
+    </div>
+    
+    
+    <div class="container">
+        <form id="form">
+            <div class="input-holder">
+                <input class="success" type="text" name="name" id="name" aria-label="First name"
+                    placeholder="First name">
+                <ion-icon id="success-tick" class="success" name="checkmark-outline"></ion-icon>
+                <ion-icon id="error-x" class="error" name="close-outline"></ion-icon>
+                <span id="span-msg">Here goes the error</span>
+            </div>
+            <div class="input-holder">
+                <input type="text" name="last-name" id="last-name" aria-label="Last name" placeholder="Last name">
+                <ion-icon id="success-tick" name="checkmark-outline"></ion-icon>
+                <ion-icon id="error-x" name="close-outline"></ion-icon>
+                <span id="span-msg">Here goes the error</span>
+            </div>
+            <div class="input-holder">
+                <input type="text" name="username" id="username" aria-label="Username" placeholder="Username">
+                <ion-icon id="success-tick" name="checkmark-outline"></ion-icon>
+                <ion-icon id="error-x" name="close-outline"></ion-icon>
+                <span id="span-msg">Here goes the error</span>
+            </div>
+            <div class="input-holder">
+                <input type="text" name="email" id="email" aria-label="Email" placeholder="Email">
+                <ion-icon id="success-tick" name="checkmark-outline"></ion-icon>
+                <ion-icon id="error-x" name="close-outline"></ion-icon>
+                <span id="span-msg">Here goes the error</span>
+            </div>
+            <div class="input-holder">
+                <input type="password" name="password" id="password" aria-label="Password" placeholder="Password">
+                <meter max="4" id="password-strength-meter"></meter>
+                <p id="password-strength-text"></p>
+                <ion-icon id="success-tick" name="checkmark-outline"></ion-icon>
+                <ion-icon id="error-x" name="close-outline"></ion-icon>
+                <span id="span-msg">Here goes the error</span>
+            </div>
+            <div class="input-holder">
+                <input type="password" name="confirm-password" id="confirm-password" aria-label="Confirm Password"
+                    placeholder="Confirm password">
+                <ion-icon id="success-tick" name="checkmark-outline"></ion-icon>
+                <ion-icon id="error-x" name="close-outline"></ion-icon>
+                <span id="span-msg">Here goes the error</span>
+            </div>
+            <input class="button" type="submit" value="Create new account">
+        </form>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
